@@ -10,4 +10,5 @@ declare(strict_types=1);
 require __DIR__ . '/../ru/hello.php';
 
 $string['pluginname'] = 'Hello';
+$string['pluginadministration'] = 'Hello administration';
 $string['privacy:metadata'] = 'The Hello activity plugin does not store any personal data.';
