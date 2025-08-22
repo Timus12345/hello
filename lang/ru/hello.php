@@ -8,6 +8,7 @@
 declare(strict_types=1);
 
 $string['pluginname'] = 'Приветствие';
+$string['pluginadministration'] = 'Управление Приветствием';
 $string['modulename'] = 'Привет';
 $string['modulenameplural'] = 'Приветы';
 $string['hello:addinstance'] = 'Добавить новое приветствие';
