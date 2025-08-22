@@ -10,8 +10,8 @@ require __DIR__ . '/../../config.php';
 
 /**
  * @var \moodle_page $PAGE
- * @var \moodle_output $OUTPUT
- * @var \moodle_user $USER
+ * @var \core_renderer $OUTPUT
+ * @var object $USER
  */
 
 $id = required_param('id', PARAM_INT);
