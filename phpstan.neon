@@ -1,0 +1,14 @@
+includes:
+  - ./../../local/phpstan/phpstan_plugin.neon
+
+parameters:
+  level: 10
+
+  ignoreErrors:
+      - '#Parameter \#2 \$paramtype of method MoodleQuickForm::setType\(\) expects int, string given#'
+
+  paths:
+    - ./
+
+  excludePaths:
+#    - tests
