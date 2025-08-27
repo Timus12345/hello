@@ -13,6 +13,7 @@ defined('MOODLE_INTERNAL') || die();
  * @var stdClass $CFG
  */
 
+assert(is_string($CFG->dirroot));
 require_once($CFG->dirroot . '/course/moodleform_mod.php');
 
 class mod_hello_mod_form extends moodleform_mod {

@@ -7,6 +7,10 @@
 
 declare(strict_types=1);
 
+/**
+ * @var array<string, mixed> $string
+ */
+
 $string['pluginname'] = 'Приветствие';
 $string['pluginadministration'] = 'Управление Приветствием';
 $string['modulename'] = 'Привет';

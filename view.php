@@ -11,11 +11,13 @@ require __DIR__ . '/../../config.php';
 /**
  * @var \moodle_page $PAGE
  * @var \core_renderer $OUTPUT
- * @var object $USER
+ * @var stdClass $USER
+ * @var int $id
  */
 
 $id = required_param('id', PARAM_INT);
 $cm = get_coursemodule_from_id('hello', $id, 0, false, MUST_EXIST);
+assert($cm !== false);
 $course = get_course($cm->course);
 
 require_login($course, true, $cm);
